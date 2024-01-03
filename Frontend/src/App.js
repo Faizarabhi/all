@@ -6,7 +6,7 @@ import NoPage from './pages/NoPage';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import Dashboard from './pages/Dashboard';
-import Layout from './layout/Layout';
+import Layout from './layout';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
